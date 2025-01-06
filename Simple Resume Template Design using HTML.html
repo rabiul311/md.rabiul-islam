@@ -1,0 +1,131 @@
+Simple Resume Template Design using HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        h3 {
+            margin-top: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+        }
+        img {
+            border-radius: 50%;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .contact, .work-experience {
+            width: 50%;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .header {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .subheader {
+            font-size: 1.5rem;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td align="center">
+                <img src="profile.png" width="100" height="100" alt="Profile Picture">
+            </td>
+            <td>
+                <p class="header">MD.RABIUL ISLAM</p>
+                <p class="subheader">ELECRICAL AND ELECTRONIC ENGINEER</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <hr>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <div class="container">
+                    <div class="contact">
+                        <h3>CONTACT</h3>
+                        <p>rabi.kuet@gmail.com</p>
+                        <p>+8801875091004</p>
+                        <p>jhenaidah,Dhaka, Bangladesh</p>
+                        <p><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></p>
+                        <p><a href="https://www.github.com/" target="_blank">GitHub</a></p>
+
+                        <h3>EDUCATION</h3>
+                        
+                        <b>Bachelor of EEE</b><br>
+                        Computer Science and Engineering, kUET<br>
+                        2002 - 2006<br>
+                        CGPA: 3.22
+                        <b>MASTER of Science</b><br>
+                        Computer Science and Engineering,RUDK<br>
+                        2021 - 2023<br>
+                        CGPA: 3.60
+                        <h3>SKILLS</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                            <li>MICRO-CONTROLLER AND EMBEDDEN SYSTEM</li>
+                            <li>ARDUINO</li>
+                        </ul>
+                    </div>
+
+                    <div class="work-experience">
+                        <h3>WORK EXPERIENCE</h3>
+                        <b>CHIEF INSTRUCTOR OF ELECRONIC DEPARTMENT</b><br>
+                        JHENAIDAH POLYTCHNIC INSTITUTE,JHENAIDAH, Bangladesh<br>
+                        2013 - Present<br>
+                        <ul>
+                            <li>AGM,REB,KPBS2009-2012</li>
+                            <li>ASSITANT ENGINEER OF REB 2007-2008.</li>
+                            <li>Reviewed codes to improve code quality and maintainability.</li>
+                        </ul>
+
+                        <h3>PROJECTS</h3>
+
+                        <b>Task Management System 1</b>
+                        <ul>
+                            <li>Developed a task management system with Python and Django.</li>
+                            <li>Designed frontend using HTML & CSS.</li>
+                            <li>Implemented interactive dashboard using JS.</li>
+                        </ul>
+
+                        <b>Task Management System 2</b>
+                        <ul>
+                            <li>Developed a task management system with Python and Django.</li>
+                            <li>Designed frontend using HTML & CSS.</li>
+                            <li>Implemented interactive dashboard using JS.</li>
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
